@@ -1,4 +1,4 @@
-Inlämningsuppgift TNGD46 Grupp 11
+Inlämningsuppgift Webbsida TNGD46 Grupp 11
 Vårtermin 2024 (Januari-Maj 2024)
 
 Medlemmar:
