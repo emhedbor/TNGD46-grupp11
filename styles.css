@@ -113,6 +113,20 @@ footer {
   background-color: #c6631c;
 }
 
+#flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.picture{
+  width: 30%;
+  height: 200px;
+  padding: 5px;
+  object-fit: cover;
+}
+
 #pic1{
   float: right;
   width: 25%;
