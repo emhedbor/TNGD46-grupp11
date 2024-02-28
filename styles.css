@@ -13,7 +13,7 @@ main {
   margin: auto;
 	display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 50px, repeat(20, 100px);
+  grid-template-rows: 50px repeat(20, 100px);
   grid-template-areas: 
    "nav nav nav"
   "header header header"
