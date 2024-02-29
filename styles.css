@@ -6,7 +6,7 @@ body {
   font-size: 9pt;
   color: white;
 }
-
+/*Main structure for grid and container*/
 main {
   padding: 0;
   width: 100%;
@@ -40,7 +40,7 @@ p {
   font-size: 9pt;
 }
 
-
+/*Navbar across all pages, added sticky*/
 nav {
   grid-area: nav;
   position: -webkit-sticky;
@@ -65,7 +65,7 @@ a {
   color: #c5962a ;
   text-decoration: none;
 }
-
+/*Changes color when hovering over*/
 nav a:hover {
   color: #6f1d22;
 }
@@ -73,11 +73,11 @@ nav a:hover {
 a:hover {
   color: gray;
 }
-
+/*Highlights which is the current page*/
 .active {
   color: black; 
 }
-
+/*Flare banner image*/
 #banner {
   grid-area: banner;
   margin: auto;
@@ -85,7 +85,7 @@ a:hover {
   height: 100%;
   object-fit: cover;
 }
-
+/*Main content container css*/
 .container {
   max-width: 750px;
   margin: 15px auto;
@@ -99,14 +99,14 @@ footer {
   text-align: center;
   background-color: #c6631c;
 }
-
+/*Gallery contentbox*/
 #flexbox{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
 }
-
+/*Class for pictures*/
 .picture{
   width: 30%;
   height: 200px;
@@ -140,7 +140,7 @@ table, th, td {
 tr:hover {
   background-color: #c6631c;
 }
-
+/*Css for program table*/
 #program-times {
   gap: 15px;
   display: flex;
