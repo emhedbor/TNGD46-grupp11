@@ -54,16 +54,24 @@ nav li {
   margin: 10px;
 }
 
-a {
+nav a {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
   font-size: 20pt;
-  color: #ffffff;
+  color: white;
+}
+
+a {
+  color: #c5962a ;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   color: #6f1d22;
+}
+
+a:hover {
+  color: gray;
 }
 
 .active {
