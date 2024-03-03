@@ -36,10 +36,6 @@ h2, h3 {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-p { 
-  font-size: 9pt;
-}
-
 /*Navbar across all pages, added sticky*/
 nav {
   grid-area: nav;
