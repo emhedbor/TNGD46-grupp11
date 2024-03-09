@@ -3,7 +3,7 @@ body {
   background-color: black;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-size: 9pt;
+  font-size: 10pt;
   color: white;
 }
 /*Main structure for grid and container*/
@@ -136,8 +136,8 @@ table, th, td {
 tr:hover {
   background-color: #c6631c;
 }
-/*Css for program table*/
-#program-times {
+/*Css for program table and about us page*/
+#row_arrange{
   gap: 15px;
   display: flex;
   flex-direction: row;
